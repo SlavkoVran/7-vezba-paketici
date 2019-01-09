@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: url('./images.jfif') no-repeat center center fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color: white;
+}
+.tabela1{
+   width: 300px;
+   
+}
+#tabela2{
+    /* display: none; */
+    width: 700px;
+ }
+ .nav{
+     justify-self: flex-start;
+     width: 70%;
+     height: 20%;
+ }
+
+.containerFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+input{
+    text-align: center;
+}
+
+

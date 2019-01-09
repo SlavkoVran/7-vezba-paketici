@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="style.css">
+   
+    <title>Paketic</title>
+</head>
+<body>
+    <div class="containerFlex">
+
+    
+        <img src="./1.jpg" alt=""class="nav">
+    
+    
+            <table  class="tabela1">
+                    <tr>
+                      <td>
+                            Ime: <input type="text" id="ime">
+                      </td>
+                      <td>
+                            <input type="radio" id="pol" value="muski"> Muski <br>
+                            <input type="radio" id="pol1" value="zenski"> Zenski
+                      </td>
+            
+                    </tr>
+                    <tr>
+                      <td colspan="2">
+                            Vrednost poklona do (RSD): <select name="vrednostPollona" >
+                                <option value="2000">2000</option>
+                                <option value="2500">2500</option>
+                                <option value="3500">3500</option> </option>
+                            </td>
+                            </select>
+                      </td>
+                      
+                    </tr>
+                    <tr>
+                            <td colspan="2" >
+            <input type="button" value="Izaberi poklon" id="dugmeP">
+                                </td>
+                    </tr>
+                   
+                  </table>
+        
+            
+    
+
+    
+            <table  id="tabela2" >
+                    <tr>
+                    <th></th>
+                      <th>Cena:</th>
+                      <th>Kolicina:</th>
+                      <th>Ukupno:</th>
+                    </tr>
+                    <tr id="proizvod1"> 
+                      <td> Lopta</td>
+                      <td><input type="number" value="750" id="cena1"></td>
+                      <td><input type="number" id="kolicina1" value="0"></td>
+                      <th><input type="number" id="ukupno1"></th>
+                    </tr>
+                    <tr>
+                      <td>Novogodisnji ukras</td>
+                      <td ><input type="number" value="400" id="cena2"> </td>
+                      <td><input type="number" id="kolicina2" value="0" ></td>
+                      <th><input type="number" id="ukupno2"></th>
+                      <tr>
+                            <td>Slatkisi</td>
+                            <td><input type="number" name="" value="400" id="cena3">
+                            </td>
+                            <td><input type="number"id="kolicina3"value="0"></td>
+                            <th><input type="number" id="ukupno3"></th>
+                          </tr>
+                          <tr id="proizvod4">
+                                <td>Lutka</td>
+                                <td> <input type="number" name="" value="1100" id="cena4"></td>
+                                <td><input type="number"id="kolicina4" value="0"></td>
+                                <th><input type="number" id="ukupno4"></th>
+                              </tr>
+                              <tr>
+                                    <td>Automobil</td>
+                                    <td > <input type="number" name="" id="cena5" value="1100"></td>
+                                    <td><input type="number"id="kolicina5"value="0"></td>
+                                    <th><input type="number" id="ukupno5"></th>
+                                  </tr>
+                                  <tr>
+                                        <td></td>
+                                        <td><input type="button" value="Potvrdi kupovinu" id="kupi"></td>
+                                        <td></td>
+                                        <th><input type="button" value="Odustani" id="odustabni"></th>
+                                      </tr>
+                                      
+                    </tr>
+                  </table> 
+    
+</div>
+    
+</body>
+<script src="main.js"></script>
+</html>
